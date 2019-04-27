@@ -1,1 +1,31 @@
-hjdsafjh,sdjhfsd
+body{background-image: url(img/fondo.jpg);color: white; background-repeat: no-repeat;background-size: cover;}
+
+/*Responsive*/
+@media (max-width:992px){
+	body{background-position: -340px 0px;background-size: cover;}
+}
+@media (max-width:768px){
+	body{background-position: -607px 0px;background-size: cover;}
+}
+@media (max-width:360px){
+	body{background-position: -735px 0px;background-size: cover;}
+}
+
+
+/*Header*/
+header {background-color: rgba(0,0,0,0.2);}
+header #logo img {width:150px ; height: 60px;}
+header .nav ul , header .nav a{line-height: 40px;}
+header .nav a { color: white ; text-decoration: none; }
+#login nav a{border-radius: 15px;  margin: 5px; padding: 5px;}
+#login nav #iniciar { border: 2px solid white;}
+header ul li{transition: 0.5s;height: 60px;}
+header ul li:hover {background-color: rgba(0,0,0,0.3);}
+
+/*Main*/
+main{background-color: rgba(0,0,0,0.2);}
+#cuentas>div{background-color: rgba(255,255,255,0.7); width: 400px; }
+#cuentas img{width: 60px;height: 60px;}
+main button{border-radius: 40px; width: 220px;}
+main #info a {border-radius: 30px; border:2px solid white;background-color: rgba(0,0,0,0.6)}
+main #info img{width: 60px;height: 60px;}
